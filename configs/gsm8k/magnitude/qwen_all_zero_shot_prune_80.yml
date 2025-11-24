@@ -1,0 +1,12 @@
+dataset:
+  name: gsm8k
+  subset: test
+  subset_size: 0.1
+device: cuda
+experiment_name: gsm8k/magnitude/qwen_all_zero_shot_prune_80
+model:
+  name: Qwen/Qwen3-0.6B
+  prune: true
+  prune_percentage: 0.8
+  prune_type: magnitude
+seed: 42

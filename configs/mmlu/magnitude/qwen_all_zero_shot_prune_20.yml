@@ -1,0 +1,12 @@
+dataset:
+  name: mmlu
+  subset: test
+  subset_size: 1
+device: cuda
+experiment_name: mmlu/magnitude/qwen_all_zero_shot_prune_20
+model:
+  name: Qwen/Qwen3-0.6B
+  prune: true
+  prune_percentage: 0.2
+  prune_type: magnitude
+seed: 42

@@ -1,0 +1,12 @@
+dataset:
+  name: gsm8k
+  subset: test
+  subset_size: 0.1
+device: cuda
+experiment_name: gsm8k/layers/qwen_all_zero_shot_prune_layer_21
+model:
+  name: Qwen/Qwen3-0.6B
+  prune: true
+  prune_layers:
+  - 21
+seed: 42
