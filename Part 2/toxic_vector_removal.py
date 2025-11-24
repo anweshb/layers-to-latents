@@ -156,8 +156,8 @@ def main():
     judge_mlp = HarmfulDetectorMLP(input_size=gpt2_extractor.h_size).to(DEVICE)
     judge_mlp.load_state_dict(torch.load(os.path.join(SAVE_DIR, f'mlp_layer_{best_layer_idx}_model.pth')))
 
-    alphas = [0.0, 0.5, 1.0]
-    layer_counts = [1, 3, 5, 10]
+    alphas = [0.0, 0.01, 0.05, 0.1, 0.5, 1.0]
+    layer_counts = [1, 5, 10]
     methods = ['mean_diff', 'logistic']
 
     results = []
