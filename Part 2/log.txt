@@ -1,0 +1,426 @@
+Now using GPT-2 (gpt2-large) model with the following configuration:
+Number of layers (including embeddings): 37
+Hidden size: 1280
+Now using GPT-2 (gpt2-large) model with the following configuration:
+Number of layers (including embeddings): 37
+Hidden size: 1280
+============================================================
+STEP 1: Extracting Activations
+============================================================
+Activations already exist. Skipping extraction.
+
+============================================================
+STEP 2: Training Layer-wise MLPs
+============================================================
+Training on embedding layer
+Epoch [1/5], Train Loss: 0.5080, Val Loss: 0.4074
+Epoch [2/5], Train Loss: 0.3224, Val Loss: 0.3684
+Epoch [3/5], Train Loss: 0.2775, Val Loss: 0.3589
+Epoch [4/5], Train Loss: 0.2575, Val Loss: 0.3550
+Epoch [5/5], Train Loss: 0.2472, Val Loss: 0.3557
+Train Loss: 0.2396, Train F1: 0.9033, Train Acc: 0.9035, Train TPR: 0.9015, Train FPR: 0.0944
+Test Loss: 0.3557, Test F1: 0.8695, Test Acc: 0.8648, Test TPR: 0.9007, Test FPR: 0.1711
+
+
+
+Training on transformer layer: 0
+Epoch [1/5], Train Loss: 0.3247, Val Loss: 0.3570
+Epoch [2/5], Train Loss: 0.2392, Val Loss: 0.3518
+Epoch [3/5], Train Loss: 0.2243, Val Loss: 0.3185
+Epoch [4/5], Train Loss: 0.2153, Val Loss: 0.3468
+Epoch [5/5], Train Loss: 0.2119, Val Loss: 0.3364
+Train Loss: 0.2010, Train F1: 0.9169, Train Acc: 0.9165, Train TPR: 0.9210, Train FPR: 0.0880
+Test Loss: 0.3364, Test F1: 0.8782, Test Acc: 0.8716, Test TPR: 0.9260, Test FPR: 0.1828
+
+
+
+Training on transformer layer: 1
+Epoch [1/5], Train Loss: 0.3179, Val Loss: 0.3409
+Epoch [2/5], Train Loss: 0.2424, Val Loss: 0.3225
+Epoch [3/5], Train Loss: 0.2267, Val Loss: 0.3167
+Epoch [4/5], Train Loss: 0.2166, Val Loss: 0.3410
+Epoch [5/5], Train Loss: 0.2103, Val Loss: 0.3282
+Train Loss: 0.2020, Train F1: 0.9163, Train Acc: 0.9165, Train TPR: 0.9146, Train FPR: 0.0817
+Test Loss: 0.3282, Test F1: 0.8802, Test Acc: 0.8747, Test TPR: 0.9207, Test FPR: 0.1714
+
+
+
+Training on transformer layer: 2
+Epoch [1/5], Train Loss: 0.3089, Val Loss: 0.3301
+Epoch [2/5], Train Loss: 0.2384, Val Loss: 0.3226
+Epoch [3/5], Train Loss: 0.2227, Val Loss: 0.3236
+Epoch [4/5], Train Loss: 0.2151, Val Loss: 0.3200
+Epoch [5/5], Train Loss: 0.2084, Val Loss: 0.3445
+Train Loss: 0.1988, Train F1: 0.9197, Train Acc: 0.9189, Train TPR: 0.9289, Train FPR: 0.0912
+Test Loss: 0.3445, Test F1: 0.8814, Test Acc: 0.8746, Test TPR: 0.9321, Test FPR: 0.1829
+
+
+
+Training on transformer layer: 3
+Epoch [1/5], Train Loss: 0.3033, Val Loss: 0.3340
+Epoch [2/5], Train Loss: 0.2348, Val Loss: 0.3265
+Epoch [3/5], Train Loss: 0.2199, Val Loss: 0.3193
+Epoch [4/5], Train Loss: 0.2106, Val Loss: 0.3181
+Epoch [5/5], Train Loss: 0.2065, Val Loss: 0.3460
+Train Loss: 0.1984, Train F1: 0.9201, Train Acc: 0.9187, Train TPR: 0.9362, Train FPR: 0.0987
+Test Loss: 0.3460, Test F1: 0.8821, Test Acc: 0.8747, Test TPR: 0.9380, Test FPR: 0.1887
+
+
+
+Training on transformer layer: 4
+Epoch [1/5], Train Loss: 0.2967, Val Loss: 0.3709
+Epoch [2/5], Train Loss: 0.2337, Val Loss: 0.3216
+Epoch [3/5], Train Loss: 0.2191, Val Loss: 0.3430
+Epoch [4/5], Train Loss: 0.2088, Val Loss: 0.3297
+Epoch [5/5], Train Loss: 0.2040, Val Loss: 0.3101
+Train Loss: 0.2032, Train F1: 0.9087, Train Acc: 0.9121, Train TPR: 0.8741, Train FPR: 0.0499
+Test Loss: 0.3101, Test F1: 0.8775, Test Acc: 0.8768, Test TPR: 0.8823, Test FPR: 0.1286
+
+
+
+Training on transformer layer: 5
+Epoch [1/5], Train Loss: 0.2927, Val Loss: 0.3304
+Epoch [2/5], Train Loss: 0.2280, Val Loss: 0.3257
+Epoch [3/5], Train Loss: 0.2145, Val Loss: 0.3579
+Epoch [4/5], Train Loss: 0.2065, Val Loss: 0.3311
+Epoch [5/5], Train Loss: 0.2013, Val Loss: 0.3204
+Train Loss: 0.2137, Train F1: 0.8997, Train Acc: 0.9054, Train TPR: 0.8482, Train FPR: 0.0374
+Test Loss: 0.3204, Test F1: 0.8710, Test Acc: 0.8735, Test TPR: 0.8544, Test FPR: 0.1075
+
+
+
+Training on transformer layer: 6
+Epoch [1/5], Train Loss: 0.2928, Val Loss: 0.3244
+Epoch [2/5], Train Loss: 0.2263, Val Loss: 0.3212
+Epoch [3/5], Train Loss: 0.2121, Val Loss: 0.3378
+Epoch [4/5], Train Loss: 0.2052, Val Loss: 0.3137
+Epoch [5/5], Train Loss: 0.1990, Val Loss: 0.3273
+Train Loss: 0.1896, Train F1: 0.9230, Train Acc: 0.9220, Train TPR: 0.9344, Train FPR: 0.0904
+Test Loss: 0.3273, Test F1: 0.8870, Test Acc: 0.8819, Test TPR: 0.9271, Test FPR: 0.1632
+
+
+
+Training on transformer layer: 7
+Epoch [1/5], Train Loss: 0.2825, Val Loss: 0.3410
+Epoch [2/5], Train Loss: 0.2195, Val Loss: 0.3218
+Epoch [3/5], Train Loss: 0.2067, Val Loss: 0.3325
+Epoch [4/5], Train Loss: 0.1978, Val Loss: 0.3117
+Epoch [5/5], Train Loss: 0.1926, Val Loss: 0.3206
+Train Loss: 0.1821, Train F1: 0.9240, Train Acc: 0.9242, Train TPR: 0.9212, Train FPR: 0.0727
+Test Loss: 0.3206, Test F1: 0.8869, Test Acc: 0.8839, Test TPR: 0.9108, Test FPR: 0.1430
+
+
+
+Training on transformer layer: 8
+Epoch [1/5], Train Loss: 0.2771, Val Loss: 0.3258
+Epoch [2/5], Train Loss: 0.2158, Val Loss: 0.3187
+Epoch [3/5], Train Loss: 0.2026, Val Loss: 0.3152
+Epoch [4/5], Train Loss: 0.1956, Val Loss: 0.3157
+Epoch [5/5], Train Loss: 0.1900, Val Loss: 0.3192
+Train Loss: 0.1783, Train F1: 0.9260, Train Acc: 0.9262, Train TPR: 0.9233, Train FPR: 0.0709
+Test Loss: 0.3192, Test F1: 0.8872, Test Acc: 0.8843, Test TPR: 0.9101, Test FPR: 0.1416
+
+
+
+Training on transformer layer: 9
+Epoch [1/5], Train Loss: 0.2714, Val Loss: 0.3158
+Epoch [2/5], Train Loss: 0.2124, Val Loss: 0.3119
+Epoch [3/5], Train Loss: 0.1992, Val Loss: 0.3294
+Epoch [4/5], Train Loss: 0.1916, Val Loss: 0.3249
+Epoch [5/5], Train Loss: 0.1863, Val Loss: 0.3420
+Train Loss: 0.1816, Train F1: 0.9281, Train Acc: 0.9267, Train TPR: 0.9462, Train FPR: 0.0928
+Test Loss: 0.3420, Test F1: 0.8889, Test Acc: 0.8836, Test TPR: 0.9308, Test FPR: 0.1635
+
+
+
+Training on transformer layer: 10
+Epoch [1/5], Train Loss: 0.2690, Val Loss: 0.3126
+Epoch [2/5], Train Loss: 0.2082, Val Loss: 0.3049
+Epoch [3/5], Train Loss: 0.1973, Val Loss: 0.3169
+Epoch [4/5], Train Loss: 0.1882, Val Loss: 0.3356
+Epoch [5/5], Train Loss: 0.1847, Val Loss: 0.3159
+Train Loss: 0.1709, Train F1: 0.9295, Train Acc: 0.9296, Train TPR: 0.9280, Train FPR: 0.0688
+Test Loss: 0.3159, Test F1: 0.8872, Test Acc: 0.8839, Test TPR: 0.9133, Test FPR: 0.1456
+
+
+
+Training on transformer layer: 11
+Epoch [1/5], Train Loss: 0.2640, Val Loss: 0.3110
+Epoch [2/5], Train Loss: 0.2042, Val Loss: 0.3236
+Epoch [3/5], Train Loss: 0.1923, Val Loss: 0.3404
+Epoch [4/5], Train Loss: 0.1854, Val Loss: 0.3236
+Epoch [5/5], Train Loss: 0.1785, Val Loss: 0.3341
+Train Loss: 0.1698, Train F1: 0.9323, Train Acc: 0.9313, Train TPR: 0.9457, Train FPR: 0.0830
+Test Loss: 0.3341, Test F1: 0.8890, Test Acc: 0.8839, Test TPR: 0.9298, Test FPR: 0.1621
+
+
+
+Training on transformer layer: 12
+Epoch [1/5], Train Loss: 0.2700, Val Loss: 0.3208
+Epoch [2/5], Train Loss: 0.2032, Val Loss: 0.3154
+Epoch [3/5], Train Loss: 0.1906, Val Loss: 0.3224
+Epoch [4/5], Train Loss: 0.1831, Val Loss: 0.3291
+Epoch [5/5], Train Loss: 0.1768, Val Loss: 0.3182
+Train Loss: 0.1706, Train F1: 0.9271, Train Acc: 0.9286, Train TPR: 0.9080, Train FPR: 0.0507
+Test Loss: 0.3182, Test F1: 0.8870, Test Acc: 0.8858, Test TPR: 0.8960, Test FPR: 0.1245
+
+
+
+Training on transformer layer: 13
+Epoch [1/5], Train Loss: 0.2579, Val Loss: 0.3248
+Epoch [2/5], Train Loss: 0.2013, Val Loss: 0.3231
+Epoch [3/5], Train Loss: 0.1879, Val Loss: 0.3256
+Epoch [4/5], Train Loss: 0.1817, Val Loss: 0.3179
+Epoch [5/5], Train Loss: 0.1770, Val Loss: 0.3292
+Train Loss: 0.1673, Train F1: 0.9345, Train Acc: 0.9338, Train TPR: 0.9442, Train FPR: 0.0765
+Test Loss: 0.3292, Test F1: 0.8903, Test Acc: 0.8850, Test TPR: 0.9337, Test FPR: 0.1637
+
+
+
+Training on transformer layer: 14
+Epoch [1/5], Train Loss: 0.2556, Val Loss: 0.3127
+Epoch [2/5], Train Loss: 0.2008, Val Loss: 0.3093
+Epoch [3/5], Train Loss: 0.1882, Val Loss: 0.3152
+Epoch [4/5], Train Loss: 0.1792, Val Loss: 0.3269
+Epoch [5/5], Train Loss: 0.1728, Val Loss: 0.3197
+Train Loss: 0.1733, Train F1: 0.9252, Train Acc: 0.9276, Train TPR: 0.8961, Train FPR: 0.0410
+Test Loss: 0.3197, Test F1: 0.8813, Test Acc: 0.8822, Test TPR: 0.8744, Test FPR: 0.1100
+
+
+
+Training on transformer layer: 15
+Epoch [1/5], Train Loss: 0.2555, Val Loss: 0.3149
+Epoch [2/5], Train Loss: 0.1993, Val Loss: 0.3406
+Epoch [3/5], Train Loss: 0.1880, Val Loss: 0.3085
+Epoch [4/5], Train Loss: 0.1803, Val Loss: 0.3435
+Epoch [5/5], Train Loss: 0.1739, Val Loss: 0.3178
+Train Loss: 0.1706, Train F1: 0.9296, Train Acc: 0.9312, Train TPR: 0.9080, Train FPR: 0.0456
+Test Loss: 0.3178, Test F1: 0.8880, Test Acc: 0.8873, Test TPR: 0.8932, Test FPR: 0.1185
+
+
+
+Training on transformer layer: 16
+Epoch [1/5], Train Loss: 0.2474, Val Loss: 0.3260
+Epoch [2/5], Train Loss: 0.1971, Val Loss: 0.3067
+Epoch [3/5], Train Loss: 0.1861, Val Loss: 0.3289
+Epoch [4/5], Train Loss: 0.1779, Val Loss: 0.3217
+Epoch [5/5], Train Loss: 0.1703, Val Loss: 0.3151
+Train Loss: 0.1615, Train F1: 0.9327, Train Acc: 0.9340, Train TPR: 0.9159, Train FPR: 0.0480
+Test Loss: 0.3151, Test F1: 0.8846, Test Acc: 0.8842, Test TPR: 0.8879, Test FPR: 0.1195
+
+
+
+Training on transformer layer: 17
+Epoch [1/5], Train Loss: 0.2470, Val Loss: 0.3203
+Epoch [2/5], Train Loss: 0.1970, Val Loss: 0.3491
+Epoch [3/5], Train Loss: 0.1844, Val Loss: 0.3442
+Epoch [4/5], Train Loss: 0.1786, Val Loss: 0.3241
+Epoch [5/5], Train Loss: 0.1688, Val Loss: 0.3219
+Train Loss: 0.1612, Train F1: 0.9331, Train Acc: 0.9341, Train TPR: 0.9180, Train FPR: 0.0497
+Test Loss: 0.3219, Test F1: 0.8843, Test Acc: 0.8835, Test TPR: 0.8908, Test FPR: 0.1238
+
+
+
+Training on transformer layer: 18
+Epoch [1/5], Train Loss: 0.2435, Val Loss: 0.3156
+Epoch [2/5], Train Loss: 0.1961, Val Loss: 0.3288
+Epoch [3/5], Train Loss: 0.1833, Val Loss: 0.3307
+Epoch [4/5], Train Loss: 0.1751, Val Loss: 0.3171
+Epoch [5/5], Train Loss: 0.1679, Val Loss: 0.3179
+Train Loss: 0.1518, Train F1: 0.9392, Train Acc: 0.9393, Train TPR: 0.9369, Train FPR: 0.0582
+Test Loss: 0.3179, Test F1: 0.8881, Test Acc: 0.8853, Test TPR: 0.9105, Test FPR: 0.1398
+
+
+
+Training on transformer layer: 19
+Epoch [1/5], Train Loss: 0.2462, Val Loss: 0.3128
+Epoch [2/5], Train Loss: 0.1970, Val Loss: 0.3116
+Epoch [3/5], Train Loss: 0.1839, Val Loss: 0.3243
+Epoch [4/5], Train Loss: 0.1779, Val Loss: 0.3902
+Epoch [5/5], Train Loss: 0.1712, Val Loss: 0.3304
+Train Loss: 0.1611, Train F1: 0.9316, Train Acc: 0.9331, Train TPR: 0.9110, Train FPR: 0.0447
+Test Loss: 0.3304, Test F1: 0.8866, Test Acc: 0.8861, Test TPR: 0.8901, Test FPR: 0.1179
+
+
+
+Training on transformer layer: 20
+Epoch [1/5], Train Loss: 0.2413, Val Loss: 0.3178
+Epoch [2/5], Train Loss: 0.1953, Val Loss: 0.3080
+Epoch [3/5], Train Loss: 0.1833, Val Loss: 0.3177
+Epoch [4/5], Train Loss: 0.1755, Val Loss: 0.3279
+Epoch [5/5], Train Loss: 0.1671, Val Loss: 0.3603
+Train Loss: 0.1608, Train F1: 0.9367, Train Acc: 0.9350, Train TPR: 0.9620, Train FPR: 0.0921
+Test Loss: 0.3603, Test F1: 0.8872, Test Acc: 0.8807, Test TPR: 0.9382, Test FPR: 0.1767
+
+
+
+Training on transformer layer: 21
+Epoch [1/5], Train Loss: 0.2400, Val Loss: 0.3188
+Epoch [2/5], Train Loss: 0.1939, Val Loss: 0.3229
+Epoch [3/5], Train Loss: 0.1809, Val Loss: 0.3278
+Epoch [4/5], Train Loss: 0.1718, Val Loss: 0.3238
+Epoch [5/5], Train Loss: 0.1654, Val Loss: 0.3658
+Train Loss: 0.1648, Train F1: 0.9364, Train Acc: 0.9340, Train TPR: 0.9715, Train FPR: 0.1034
+Test Loss: 0.3658, Test F1: 0.8859, Test Acc: 0.8780, Test TPR: 0.9467, Test FPR: 0.1906
+
+
+
+Training on transformer layer: 22
+Epoch [1/5], Train Loss: 0.2421, Val Loss: 0.3208
+Epoch [2/5], Train Loss: 0.1964, Val Loss: 0.3148
+Epoch [3/5], Train Loss: 0.1819, Val Loss: 0.3261
+Epoch [4/5], Train Loss: 0.1737, Val Loss: 0.3271
+Epoch [5/5], Train Loss: 0.1637, Val Loss: 0.3329
+Train Loss: 0.1468, Train F1: 0.9411, Train Acc: 0.9410, Train TPR: 0.9419, Train FPR: 0.0598
+Test Loss: 0.3329, Test F1: 0.8859, Test Acc: 0.8827, Test TPR: 0.9101, Test FPR: 0.1446
+
+
+
+Training on transformer layer: 23
+Epoch [1/5], Train Loss: 0.2409, Val Loss: 0.3177
+Epoch [2/5], Train Loss: 0.1982, Val Loss: 0.3179
+Epoch [3/5], Train Loss: 0.1855, Val Loss: 0.3125
+Epoch [4/5], Train Loss: 0.1748, Val Loss: 0.3630
+Epoch [5/5], Train Loss: 0.1644, Val Loss: 0.3729
+Train Loss: 0.1700, Train F1: 0.9355, Train Acc: 0.9329, Train TPR: 0.9741, Train FPR: 0.1084
+Test Loss: 0.3729, Test F1: 0.8835, Test Acc: 0.8743, Test TPR: 0.9539, Test FPR: 0.2053
+
+
+
+Training on transformer layer: 24
+Epoch [1/5], Train Loss: 0.2418, Val Loss: 0.3166
+Epoch [2/5], Train Loss: 0.1986, Val Loss: 0.3091
+Epoch [3/5], Train Loss: 0.1839, Val Loss: 0.3140
+Epoch [4/5], Train Loss: 0.1733, Val Loss: 0.3364
+Epoch [5/5], Train Loss: 0.1657, Val Loss: 0.3315
+Train Loss: 0.1581, Train F1: 0.9318, Train Acc: 0.9339, Train TPR: 0.9037, Train FPR: 0.0359
+Test Loss: 0.3315, Test F1: 0.8772, Test Acc: 0.8781, Test TPR: 0.8707, Test FPR: 0.1145
+
+
+
+Training on transformer layer: 25
+Epoch [1/5], Train Loss: 0.2411, Val Loss: 0.3206
+Epoch [2/5], Train Loss: 0.1983, Val Loss: 0.3079
+Epoch [3/5], Train Loss: 0.1857, Val Loss: 0.3214
+Epoch [4/5], Train Loss: 0.1737, Val Loss: 0.3456
+Epoch [5/5], Train Loss: 0.1643, Val Loss: 0.3303
+Train Loss: 0.1547, Train F1: 0.9351, Train Acc: 0.9368, Train TPR: 0.9108, Train FPR: 0.0372
+Test Loss: 0.3303, Test F1: 0.8807, Test Acc: 0.8801, Test TPR: 0.8855, Test FPR: 0.1253
+
+
+
+Training on transformer layer: 26
+Epoch [1/5], Train Loss: 0.2404, Val Loss: 0.3257
+Epoch [2/5], Train Loss: 0.2020, Val Loss: 0.3282
+Epoch [3/5], Train Loss: 0.1900, Val Loss: 0.3972
+Epoch [4/5], Train Loss: 0.1762, Val Loss: 0.3367
+Epoch [5/5], Train Loss: 0.1661, Val Loss: 0.3439
+Train Loss: 0.1536, Train F1: 0.9423, Train Acc: 0.9409, Train TPR: 0.9646, Train FPR: 0.0828
+Test Loss: 0.3439, Test F1: 0.8814, Test Acc: 0.8753, Test TPR: 0.9271, Test FPR: 0.1765
+
+
+
+Training on transformer layer: 27
+Epoch [1/5], Train Loss: 0.2432, Val Loss: 0.3346
+Epoch [2/5], Train Loss: 0.2013, Val Loss: 0.3254
+Epoch [3/5], Train Loss: 0.1864, Val Loss: 0.3308
+Epoch [4/5], Train Loss: 0.1757, Val Loss: 0.3263
+Epoch [5/5], Train Loss: 0.1617, Val Loss: 0.3412
+Train Loss: 0.1458, Train F1: 0.9426, Train Acc: 0.9428, Train TPR: 0.9395, Train FPR: 0.0539
+Test Loss: 0.3412, Test F1: 0.8765, Test Acc: 0.8739, Test TPR: 0.8943, Test FPR: 0.1464
+
+
+
+Training on transformer layer: 28
+Epoch [1/5], Train Loss: 0.2481, Val Loss: 0.3258
+Epoch [2/5], Train Loss: 0.2039, Val Loss: 0.3211
+Epoch [3/5], Train Loss: 0.1873, Val Loss: 0.3237
+Epoch [4/5], Train Loss: 0.1745, Val Loss: 0.3311
+Epoch [5/5], Train Loss: 0.1643, Val Loss: 0.3619
+Train Loss: 0.1467, Train F1: 0.9429, Train Acc: 0.9426, Train TPR: 0.9482, Train FPR: 0.0631
+Test Loss: 0.3619, Test F1: 0.8829, Test Acc: 0.8785, Test TPR: 0.9162, Test FPR: 0.1592
+
+
+
+Training on transformer layer: 29
+Epoch [1/5], Train Loss: 0.2402, Val Loss: 0.3532
+Epoch [2/5], Train Loss: 0.1998, Val Loss: 0.3680
+Epoch [3/5], Train Loss: 0.1873, Val Loss: 0.3170
+Epoch [4/5], Train Loss: 0.1725, Val Loss: 0.3329
+Epoch [5/5], Train Loss: 0.1615, Val Loss: 0.3641
+Train Loss: 0.1509, Train F1: 0.9408, Train Acc: 0.9399, Train TPR: 0.9559, Train FPR: 0.0761
+Test Loss: 0.3641, Test F1: 0.8844, Test Acc: 0.8794, Test TPR: 0.9231, Test FPR: 0.1643
+
+
+
+Training on transformer layer: 30
+Epoch [1/5], Train Loss: 0.2419, Val Loss: 0.3281
+Epoch [2/5], Train Loss: 0.2047, Val Loss: 0.3232
+Epoch [3/5], Train Loss: 0.1872, Val Loss: 0.3363
+Epoch [4/5], Train Loss: 0.1761, Val Loss: 0.3414
+Epoch [5/5], Train Loss: 0.1633, Val Loss: 0.3568
+Train Loss: 0.1441, Train F1: 0.9426, Train Acc: 0.9423, Train TPR: 0.9476, Train FPR: 0.0630
+Test Loss: 0.3568, Test F1: 0.8828, Test Acc: 0.8790, Test TPR: 0.9119, Test FPR: 0.1539
+
+
+
+Training on transformer layer: 31
+Epoch [1/5], Train Loss: 0.2441, Val Loss: 0.3494
+Epoch [2/5], Train Loss: 0.2061, Val Loss: 0.3212
+Epoch [3/5], Train Loss: 0.1895, Val Loss: 0.3349
+Epoch [4/5], Train Loss: 0.1810, Val Loss: 0.3744
+Epoch [5/5], Train Loss: 0.1656, Val Loss: 0.3476
+Train Loss: 0.1549, Train F1: 0.9353, Train Acc: 0.9369, Train TPR: 0.9119, Train FPR: 0.0381
+Test Loss: 0.3476, Test F1: 0.8770, Test Acc: 0.8763, Test TPR: 0.8818, Test FPR: 0.1291
+
+
+
+Training on transformer layer: 32
+Epoch [1/5], Train Loss: 0.2499, Val Loss: 0.3232
+Epoch [2/5], Train Loss: 0.2088, Val Loss: 0.3487
+Epoch [3/5], Train Loss: 0.1941, Val Loss: 0.3202
+Epoch [4/5], Train Loss: 0.1797, Val Loss: 0.3294
+Epoch [5/5], Train Loss: 0.1678, Val Loss: 0.3207
+Train Loss: 0.1635, Train F1: 0.9296, Train Acc: 0.9320, Train TPR: 0.8981, Train FPR: 0.0341
+Test Loss: 0.3207, Test F1: 0.8743, Test Acc: 0.8751, Test TPR: 0.8687, Test FPR: 0.1185
+
+
+
+Training on transformer layer: 33
+Epoch [1/5], Train Loss: 0.2473, Val Loss: 0.3249
+Epoch [2/5], Train Loss: 0.2141, Val Loss: 0.3141
+Epoch [3/5], Train Loss: 0.2005, Val Loss: 0.3226
+Epoch [4/5], Train Loss: 0.1918, Val Loss: 0.3236
+Epoch [5/5], Train Loss: 0.1757, Val Loss: 0.3189
+Train Loss: 0.1598, Train F1: 0.9373, Train Acc: 0.9379, Train TPR: 0.9272, Train FPR: 0.0513
+Test Loss: 0.3189, Test F1: 0.8761, Test Acc: 0.8738, Test TPR: 0.8924, Test FPR: 0.1448
+
+
+
+Training on transformer layer: 34
+Epoch [1/5], Train Loss: 0.2503, Val Loss: 0.3692
+Epoch [2/5], Train Loss: 0.2198, Val Loss: 0.3522
+Epoch [3/5], Train Loss: 0.2011, Val Loss: 0.3441
+Epoch [4/5], Train Loss: 0.1933, Val Loss: 0.3409
+Epoch [5/5], Train Loss: 0.1816, Val Loss: 0.3338
+Train Loss: 0.1639, Train F1: 0.9324, Train Acc: 0.9327, Train TPR: 0.9275, Train FPR: 0.0620
+Test Loss: 0.3338, Test F1: 0.8742, Test Acc: 0.8733, Test TPR: 0.8805, Test FPR: 0.1339
+
+
+
+Training on transformer layer: 35
+Epoch [1/5], Train Loss: 0.2736, Val Loss: 0.3313
+Epoch [2/5], Train Loss: 0.2233, Val Loss: 0.3270
+Epoch [3/5], Train Loss: 0.2133, Val Loss: 0.3245
+Epoch [4/5], Train Loss: 0.2051, Val Loss: 0.3426
+Epoch [5/5], Train Loss: 0.2008, Val Loss: 0.3145
+Train Loss: 0.1916, Train F1: 0.9200, Train Acc: 0.9212, Train TPR: 0.9061, Train FPR: 0.0637
+Test Loss: 0.3145, Test F1: 0.8731, Test Acc: 0.8722, Test TPR: 0.8795, Test FPR: 0.1352
+
+
+
+
+============================================================
+LAYER-WISE PERFORMANCE SUMMARY
+============================================================
+Transformer Layer 36           | F1: 0.8731 | Acc: 0.8722 | TPR: 0.8795 | FPR: 0.1352
