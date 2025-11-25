@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+Part 2/__pycache__/
+Part 2/.vscode/
+Part 2/.ipynb_checkpoints/
+Part 2/toxic_vector.ipynb
+Part 2/toxic_vector_removal.txt
+Part 2/log.txt
+Part 2/datasets.ipynb
