@@ -1,0 +1,10 @@
+dataset:
+  name: gsm8k
+  subset: test
+  subset_size: 0.1
+device: cuda
+experiment_name: gsm8k/qwen_all_zero_shot
+model:
+  name: Qwen/Qwen3-0.6B
+  prune: false
+seed: 42

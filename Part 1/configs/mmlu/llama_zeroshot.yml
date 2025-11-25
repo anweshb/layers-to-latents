@@ -1,0 +1,10 @@
+dataset:
+  name: mmlu
+  subset: test
+  subset_size: 0.1
+device: cuda
+experiment_name: mmlu/llama_zeroshot
+model:
+  name: meta-llama/Llama-3.2-1B-Instruct
+  prune: false
+seed: 42

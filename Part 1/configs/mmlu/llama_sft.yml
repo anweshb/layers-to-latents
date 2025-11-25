@@ -1,0 +1,10 @@
+dataset:
+  name: mmlu
+  subset: test
+  subset_size: 0.1
+device: cuda
+experiment_name: mmlu/llama_sft
+model:
+  name: outputs/checkpoint-3000
+  prune: false
+seed: 42
